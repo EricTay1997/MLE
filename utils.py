@@ -24,8 +24,8 @@ def random_sample(dist_name, center, desired_variance, n, d, shape=None):
     else:
         return sample_func(center).astype(np.float64)
 
- '''
-'data_params': {
+'''
+data_params =  {
                 'n_samples': 99, #they did 100 in robust bregman clustering, but 99 is divisible by 3
                 'n_features': 2,
                 'center_box': (1, 40), #they did 10,20,40 in robust bregman clustering: https://arxiv.org/pdf/1812.04356.pdf
@@ -34,8 +34,8 @@ def random_sample(dist_name, center, desired_variance, n, d, shape=None):
                 'data_dist': 'gamma',
                 'desired_variance': None, #isn't used with gamma
                 'shape': 3.0,
-            },
-
+            }
+'''
 
 
 
